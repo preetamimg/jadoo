@@ -130,6 +130,9 @@ nav{
                 background-color: #DF6951;
                 border-radius: 50%;
                 box-shadow: #DF6951 0px 4px 8px, #DF6951 0px 4px 5px;
+                & img{
+                    height: 12px;
+                }
             }
             & span{
                 font-size: 15px;
