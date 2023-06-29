@@ -1,0 +1,2150 @@
+nav{
+    &.active{
+        & .navFluid{
+            background-color: #FFF1DA;
+        }
+        
+    }
+}
+
+.navFluid{
+    & .navContainer{
+        & .navParent{
+            z-index: 1;
+            & .logo{
+                width: 140px;
+                height: 40px;
+                overflow: hidden;
+                cursor: pointer;
+                & img{
+                    width: 100%;
+                    height: 100%;object-fit: cover;
+                }
+            }
+            & .navLinks{
+                & .navUl{
+                    & .navLi{
+                        & .navAnchor{
+                            color: black;
+                            font-size: 16px;
+                            font-weight: 600;
+                            text-decoration: none;
+                            transition: 0.3s linear;
+                            &.active{
+                                border: 2px solid;
+                                border-radius: 10px;
+                                padding: 6px 10px;
+                            }
+                            &:hover{
+                                color: lighten($color: black, $amount: 40);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.heroFluid{
+        background-image: url(../../img/heroBg.svg);
+        background-repeat: no-repeat;
+        background-position:top 0 right 0;
+        padding-top: 90px;
+        min-height: 100vh;
+    & .heroContainer{
+        & .heroRytSection{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            & img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: 1;
+            }
+            & .planeImg{
+                width: 180px;
+                height: 100px;
+                overflow: hidden;
+                position: absolute;
+                top: 10%;
+                left: -30px;
+                & img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            & .planeImg1{
+                width: 180px;
+                height: 100px;
+                overflow: hidden;
+                position: absolute;
+                top: 20%;
+                right: -40px;
+                & img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+        & .heroLftSection{
+            & .txtFirst{
+                color: #DF6951;
+                font-size: 20px;
+                font-weight: 700
+            }
+            & .txtTwo{
+                font-size: 80px;
+                font-weight: 900;
+                line-height: 1;
+                margin: 30px 0;
+                font-family: 'Volkhov';
+            }
+            & .txtThree{
+                font-size: 14px;
+                font-weight: 500;
+                color: gray;
+                margin-bottom: 20px;
+            }
+            & .heroBtn{
+                background-color: #F1A501;
+                color: white;
+                font-size: 14px;
+                font-weight: 500;
+                border-radius: 6px;
+                border: none;
+                padding: 12px 24px;
+                margin: 12px 0;
+                box-shadow: #f1a501 0px 4px 8px, #f1a501 0px 4px 5px;
+                transition: 0.3s linear;
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+            & .circle{
+                width: 50px;
+                height: 50px;
+                background-color: #DF6951;
+                border-radius: 50%;
+                box-shadow: #DF6951 0px 4px 8px, #DF6951 0px 4px 5px;
+            }
+            & span{
+                font-size: 15px;
+                font-weight: 500;
+                color: gray;
+            }
+        }
+    }
+}
+
+.cardFluid{
+    & .cardContainer{
+        & .cardHeading{
+            color: #5E6282;
+            font-size: 18px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        & .cardSubHeading{
+            color: #14183E;
+            font-size: 50px;
+            font-family: 'Volkhov';
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+        & .card1{
+            transition: 0.3s linear;
+            padding: 0 0 15px 0;
+            &.card11{
+            }
+            &:hover{
+                &.card00{
+                    border-radius: 36px;
+                    background: white;
+                    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+                }
+                &.card11{
+                    border-radius: 36px;
+                    background: white;
+                    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+                }
+                &.card22{
+                    border-radius: 36px;
+                    background: white;
+                    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+                }
+                &.card33{
+                    border-radius: 36px;
+                    background: white;
+                    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+                }
+            }
+            & .cardImg{
+                margin: auto;
+                width: 100px;
+                height: 100px;
+                overflow: hidden;
+                & img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            & .txt{
+                color: #1E1D4C;
+                text-align: center;
+                font-size: 20px;
+                font-family: Open 'Sans';
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                margin: 15px 0;
+            }
+            & .para{
+                color: #5E6282;
+                text-align: center;
+                font-size: 16px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                line-height: 26px;
+                padding: 0 70px;
+                line-height: 1.2;
+            }
+        }
+    }
+}
+
+.sellingFluid{
+    & .sellingContainer{
+        & .cardHeading{
+        color: #5E6282;
+        font-size: 18px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    & .cardSubHeading{
+        color: #14183E;
+        font-size: 50px;
+        font-family: 'Volkhov';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+    & .sellCard{
+        box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+        border-radius: 10px;
+        & .selImg{
+            width: 100%;
+            aspect-ratio: 1/0.95;
+            overflow: hidden;
+            & img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: top;
+                border-radius: 12px 12px 0 0;
+                transition: 0.3s linear;
+                &:hover{
+                    filter: brightness(1.1);
+                }
+            }
+        }
+        & .destination{
+            color:  #5E6282;
+            font-size: 18px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            line-height: 124.5%;
+        }
+        & .dollor{
+            color:  #5E6282;
+            font-size: 18px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            line-height: 124.5%;
+        }
+        & .trip{
+            color:  #5E6282;
+            font-size: 16px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            line-height: 124.5%;
+        }
+    }
+    }
+}
+
+.bookFluid{
+    & .bookContainer{
+        & .bookLeft{
+            & .bookHeading{
+                color:#5E6282;
+                text-align: start;
+                font-size: 18px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+            & .bookSubHeading{
+                color: #14183E;
+                font-size: 50px;
+                font-family: 'Volkhov';
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-transform: capitalize;
+                margin: 20px 0;
+            }
+            & .box{
+                & img{
+
+                }
+            }
+            & .txt1{
+                color:  #5E6282;
+                font-size: 16px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                line-height: 124.5%;
+            }
+            & .txt2{
+                color:#5E6282;
+                font-size: 16px;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 124.5%;
+            }
+        }
+        & .bookRyt{
+            border-radius: 14px;
+            background: var(--white, #FFF);
+            box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+            & .bookCardWrapper{
+                padding: 20px;
+                & .bookCard{
+                    & .bookImg{
+                        width: 100%;
+                        height: 250px;
+                        & img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            border-radius: 26px
+                        }
+                    }
+                }
+                & .head{
+                    color: #080809;
+                    font-size: 18px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 124.5%;
+                    letter-spacing: 0.27px;
+                }
+                & .subHead{
+                    color:#84829A;
+                    font-size: 16px;
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 124.5%;
+                    letter-spacing: -0.08px;
+                }
+                & .imgBox{
+                    border-radius: 36px;
+                    width: 50px;
+                    height: 50px;
+                    background-color: #F5F5F5;
+                    & img{
+
+                    }
+                }
+                & .txt{
+                    color: #84829A;
+                    font-size: 16px;
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 124.5%;
+                    letter-spacing: -0.32px;
+                }
+            }
+        }
+    }
+}
+
+
+@mixin media-breakpoint($name) {
+    @if $name ==basic {
+    @content;
+    }
+}
+@mixin media-breakpoint-up($name) {
+    @if $name ==sm {
+    @media (min-width: 576px) {
+        @content;
+    }
+    }
+    @else if $name ==md {
+    @media (min-width: 768px) {
+        @content;
+    }
+    }
+    @else if $name ==lg {
+    @media (min-width: 992px) {
+        @content;
+    }
+    }
+    @else if $name ==xl {
+    @media (min-width: 1200px) {
+        @content;
+    }
+    }
+    @else if $name ==xxl {
+    @media (min-width: 1400px) {
+        @content;
+    }
+    }
+}
+@mixin media-breakpoint-down($name) {
+    @if $name ==sm {
+    @media (max-width: 575.98px) {
+        @content;
+    }
+    }
+    @else if $name ==md {
+    @media (max-width: 767.98px) {
+        @content;
+    }
+    }
+    @else if $name ==lg {
+    @media (max-width: 991.98px) {
+        @content;
+    }
+    }
+    @else if $name ==xl {
+    @media (max-width: 1199.98px) {
+        @content;
+    }
+    }
+    @else if $name ==xxl {
+    @media (max-width: 1399.98px) {
+        @content;
+    }
+    }
+}
+
+@include media-breakpoint(basic) {
+    .navFluid{
+        &::after{
+        }
+        & .navContainer{
+            & .navParent{
+                & .logo{
+                    & img{
+                    }
+                }
+                & .navLinks{
+                    & .navUl{
+                        & .navLi{
+                            & .navAnchor{
+                                &.active{
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .heroFluid{
+        & .heroContainer{
+            & .heroRytSection{
+                & img{
+                }
+                & .planeImg{
+                    & img{
+                    }
+                }
+                & .planeImg1{
+                    & img{
+                    }
+                }
+            }
+            & .heroLftSection{
+                & .txtFirst{
+                }
+                & .txtTwo{
+                }
+                & .txtThree{
+                }
+                & .heroBtn{
+                }
+                & .circle{
+                }
+                & span{
+                }
+            }
+        }
+    }
+    .cardFluid{
+        & .cardContainer{
+            & .cardHeading{
+            }
+            & .cardSubHeading{
+            }
+            & .card1{
+                &.card11{
+                }
+                &:hover{
+                    &.card00{
+                    }
+                    &.card11{
+                    }
+                    &.card22{
+                    }
+                    &.card33{
+                    }
+                }
+                & .cardImg{
+                    & img{
+                    }
+                }
+                & .txt{
+                }
+                & .para{
+                }
+            }
+        }
+    }
+    .sellingFluid{
+        & .sellingContainer{
+            & .cardHeading{
+        }
+        & .cardSubHeading{
+        }
+        & .sellCard{
+            & .selImg{
+                & img{
+                    &:hover{
+                    }
+                }
+            }
+            & .destination{
+            }
+            & .dollor{
+            }
+            & .trip{
+            }
+        }
+        }
+    }
+    .bookFluid{
+        & .bookContainer{
+            & .bookLeft{
+                & .bookHeading{
+                }
+                & .bookSubHeading{
+                }
+                & .box{
+                    & img{
+    
+                    }
+                }
+                & .txt1{
+    
+                }
+                & .txt2{
+    
+                }
+            }
+            & .bookRyt{
+                & .bookCardWrapper{
+                    & .bookCard{
+                        & .bookImg{
+                            & img{
+                            }
+                        }
+                    }
+                    & .head{
+                    }
+                    & .subHead{
+                    }
+                    & .imgBox{
+                        & img{
+    
+                        }
+                    }
+                    & .txt{
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .navFluid{
+        &::after{
+        }
+        & .navContainer{
+            & .navParent{
+                & .logo{
+                    & img{
+                    }
+                }
+                & .navLinks{
+                    & .navUl{
+                        & .navLi{
+                            & .navAnchor{
+                                &.active{
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .heroFluid{
+        & .heroContainer{
+            & .heroRytSection{
+                & img{
+                }
+                & .planeImg{
+                    & img{
+                    }
+                }
+                & .planeImg1{
+                    & img{
+                    }
+                }
+            }
+            & .heroLftSection{
+                & .txtFirst{
+                }
+                & .txtTwo{
+                }
+                & .txtThree{
+                }
+                & .heroBtn{
+                }
+                & .circle{
+                }
+                & span{
+                }
+            }
+        }
+    }
+    .cardFluid{
+        & .cardContainer{
+            & .cardHeading{
+            }
+            & .cardSubHeading{
+            }
+            & .card1{
+                &.card11{
+                }
+                &:hover{
+                    &.card00{
+                    }
+                    &.card11{
+                    }
+                    &.card22{
+                    }
+                    &.card33{
+                    }
+                }
+                & .cardImg{
+                    & img{
+                    }
+                }
+                & .txt{
+                }
+                & .para{
+                }
+            }
+        }
+    }
+    .sellingFluid{
+        & .sellingContainer{
+            & .cardHeading{
+        }
+        & .cardSubHeading{
+        }
+        & .sellCard{
+            & .selImg{
+                & img{
+                    &:hover{
+                    }
+                }
+            }
+            & .destination{
+            }
+            & .dollor{
+            }
+            & .trip{
+            }
+        }
+        }
+    }
+    .bookFluid{
+        & .bookContainer{
+            & .bookLeft{
+                & .bookHeading{
+                }
+                & .bookSubHeading{
+                }
+                & .box{
+                    & img{
+    
+                    }
+                }
+                & .txt1{
+    
+                }
+                & .txt2{
+    
+                }
+            }
+            & .bookRyt{
+                & .bookCardWrapper{
+                    & .bookCard{
+                        & .bookImg{
+                            & img{
+                            }
+                        }
+                    }
+                    & .head{
+                    }
+                    & .subHead{
+                    }
+                    & .imgBox{
+                        & img{
+    
+                        }
+                    }
+                    & .txt{
+                    }
+                }
+            }
+        }
+    }
+}
+@include media-breakpoint-up(md) {
+    .navFluid{
+        &::after{
+        }
+        & .navContainer{
+            & .navParent{
+                & .logo{
+                    & img{
+                    }
+                }
+                & .navLinks{
+                    & .navUl{
+                        & .navLi{
+                            & .navAnchor{
+                                &.active{
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .heroFluid{
+        & .heroContainer{
+            & .heroRytSection{
+                & img{
+                }
+                & .planeImg{
+                    & img{
+                    }
+                }
+                & .planeImg1{
+                    & img{
+                    }
+                }
+            }
+            & .heroLftSection{
+                & .txtFirst{
+                }
+                & .txtTwo{
+                }
+                & .txtThree{
+                }
+                & .heroBtn{
+                }
+                & .circle{
+                }
+                & span{
+                }
+            }
+        }
+    }
+    .cardFluid{
+        & .cardContainer{
+            & .cardHeading{
+            }
+            & .cardSubHeading{
+            }
+            & .card1{
+                &.card11{
+                }
+                &:hover{
+                    &.card00{
+                    }
+                    &.card11{
+                    }
+                    &.card22{
+                    }
+                    &.card33{
+                    }
+                }
+                & .cardImg{
+                    & img{
+                    }
+                }
+                & .txt{
+                }
+                & .para{
+                }
+            }
+        }
+    }
+    .sellingFluid{
+        & .sellingContainer{
+            & .cardHeading{
+        }
+        & .cardSubHeading{
+        }
+        & .sellCard{
+            & .selImg{
+                & img{
+                    &:hover{
+                    }
+                }
+            }
+            & .destination{
+            }
+            & .dollor{
+            }
+            & .trip{
+            }
+        }
+        }
+    }
+    .bookFluid{
+        & .bookContainer{
+            & .bookLeft{
+                & .bookHeading{
+                }
+                & .bookSubHeading{
+                }
+                & .box{
+                    & img{
+    
+                    }
+                }
+                & .txt1{
+    
+                }
+                & .txt2{
+    
+                }
+            }
+            & .bookRyt{
+                & .bookCardWrapper{
+                    & .bookCard{
+                        & .bookImg{
+                            & img{
+                            }
+                        }
+                    }
+                    & .head{
+                    }
+                    & .subHead{
+                    }
+                    & .imgBox{
+                        & img{
+    
+                        }
+                    }
+                    & .txt{
+                    }
+                }
+            }
+        }
+    }
+}
+@include media-breakpoint-up(lg) {
+    .navFluid{
+        &::after{
+        }
+        & .navContainer{
+            & .navParent{
+                & .logo{
+                    & img{
+                    }
+                }
+                & .navLinks{
+                    & .navUl{
+                        & .navLi{
+                            & .navAnchor{
+                                &.active{
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .heroFluid{
+        & .heroContainer{
+            & .heroRytSection{
+                & img{
+                }
+                & .planeImg{
+                    & img{
+                    }
+                }
+                & .planeImg1{
+                    & img{
+                    }
+                }
+            }
+            & .heroLftSection{
+                & .txtFirst{
+                }
+                & .txtTwo{
+                }
+                & .txtThree{
+                }
+                & .heroBtn{
+                }
+                & .circle{
+                }
+                & span{
+                }
+            }
+        }
+    }
+    .cardFluid{
+        & .cardContainer{
+            & .cardHeading{
+            }
+            & .cardSubHeading{
+            }
+            & .card1{
+                &.card11{
+                }
+                &:hover{
+                    &.card00{
+                    }
+                    &.card11{
+                    }
+                    &.card22{
+                    }
+                    &.card33{
+                    }
+                }
+                & .cardImg{
+                    & img{
+                    }
+                }
+                & .txt{
+                }
+                & .para{
+                }
+            }
+        }
+    }
+    .sellingFluid{
+        & .sellingContainer{
+            & .cardHeading{
+        }
+        & .cardSubHeading{
+        }
+        & .sellCard{
+            & .selImg{
+                & img{
+                    &:hover{
+                    }
+                }
+            }
+            & .destination{
+            }
+            & .dollor{
+            }
+            & .trip{
+            }
+        }
+        }
+    }
+    .bookFluid{
+        & .bookContainer{
+            & .bookLeft{
+                & .bookHeading{
+                }
+                & .bookSubHeading{
+                }
+                & .box{
+                    & img{
+    
+                    }
+                }
+                & .txt1{
+    
+                }
+                & .txt2{
+    
+                }
+            }
+            & .bookRyt{
+                & .bookCardWrapper{
+                    & .bookCard{
+                        & .bookImg{
+                            & img{
+                            }
+                        }
+                    }
+                    & .head{
+                    }
+                    & .subHead{
+                    }
+                    & .imgBox{
+                        & img{
+    
+                        }
+                    }
+                    & .txt{
+                    }
+                }
+            }
+        }
+    }
+}
+@include media-breakpoint-up(xl) {
+    .navFluid{
+        &::after{
+        }
+        & .navContainer{
+            & .navParent{
+                & .logo{
+                    & img{
+                    }
+                }
+                & .navLinks{
+                    & .navUl{
+                        & .navLi{
+                            & .navAnchor{
+                                &.active{
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .heroFluid{
+        & .heroContainer{
+            & .heroRytSection{
+                & img{
+                }
+                & .planeImg{
+                    & img{
+                    }
+                }
+                & .planeImg1{
+                    & img{
+                    }
+                }
+            }
+            & .heroLftSection{
+                & .txtFirst{
+                }
+                & .txtTwo{
+                }
+                & .txtThree{
+                }
+                & .heroBtn{
+                }
+                & .circle{
+                }
+                & span{
+                }
+            }
+        }
+    }
+    .cardFluid{
+        & .cardContainer{
+            & .cardHeading{
+            }
+            & .cardSubHeading{
+            }
+            & .card1{
+                &.card11{
+                }
+                &:hover{
+                    &.card00{
+                    }
+                    &.card11{
+                    }
+                    &.card22{
+                    }
+                    &.card33{
+                    }
+                }
+                & .cardImg{
+                    & img{
+                    }
+                }
+                & .txt{
+                }
+                & .para{
+                }
+            }
+        }
+    }
+    .sellingFluid{
+        & .sellingContainer{
+            & .cardHeading{
+        }
+        & .cardSubHeading{
+        }
+        & .sellCard{
+            & .selImg{
+                & img{
+                    &:hover{
+                    }
+                }
+            }
+            & .destination{
+            }
+            & .dollor{
+            }
+            & .trip{
+            }
+        }
+        }
+    }
+    .bookFluid{
+        & .bookContainer{
+            & .bookLeft{
+                & .bookHeading{
+                }
+                & .bookSubHeading{
+                }
+                & .box{
+                    & img{
+    
+                    }
+                }
+                & .txt1{
+    
+                }
+                & .txt2{
+    
+                }
+            }
+            & .bookRyt{
+                & .bookCardWrapper{
+                    & .bookCard{
+                        & .bookImg{
+                            & img{
+                            }
+                        }
+                    }
+                    & .head{
+                    }
+                    & .subHead{
+                    }
+                    & .imgBox{
+                        & img{
+    
+                        }
+                    }
+                    & .txt{
+                    }
+                }
+            }
+        }
+    }
+}
+@include media-breakpoint-up(xxl) {
+    .navFluid{
+        &::after{
+        }
+        & .navContainer{
+            & .navParent{
+                & .logo{
+                    & img{
+                    }
+                }
+                & .navLinks{
+                    & .navUl{
+                        & .navLi{
+                            & .navAnchor{
+                                &.active{
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .heroFluid{
+        & .heroContainer{
+            & .heroRytSection{
+                & img{
+                }
+                & .planeImg{
+                    & img{
+                    }
+                }
+                & .planeImg1{
+                    & img{
+                    }
+                }
+            }
+            & .heroLftSection{
+                & .txtFirst{
+                }
+                & .txtTwo{
+                }
+                & .txtThree{
+                }
+                & .heroBtn{
+                }
+                & .circle{
+                }
+                & span{
+                }
+            }
+        }
+    }
+    .cardFluid{
+        & .cardContainer{
+            & .cardHeading{
+            }
+            & .cardSubHeading{
+            }
+            & .card1{
+                &.card11{
+                }
+                &:hover{
+                    &.card00{
+                    }
+                    &.card11{
+                    }
+                    &.card22{
+                    }
+                    &.card33{
+                    }
+                }
+                & .cardImg{
+                    & img{
+                    }
+                }
+                & .txt{
+                }
+                & .para{
+                }
+            }
+        }
+    }
+    .sellingFluid{
+        & .sellingContainer{
+            & .cardHeading{
+        }
+        & .cardSubHeading{
+        }
+        & .sellCard{
+            & .selImg{
+                & img{
+                    &:hover{
+                    }
+                }
+            }
+            & .destination{
+            }
+            & .dollor{
+            }
+            & .trip{
+            }
+        }
+        }
+    }
+    .bookFluid{
+        & .bookContainer{
+            & .bookLeft{
+                & .bookHeading{
+                }
+                & .bookSubHeading{
+                }
+                & .box{
+                    & img{
+    
+                    }
+                }
+                & .txt1{
+    
+                }
+                & .txt2{
+    
+                }
+            }
+            & .bookRyt{
+                & .bookCardWrapper{
+                    & .bookCard{
+                        & .bookImg{
+                            & img{
+                            }
+                        }
+                    }
+                    & .head{
+                    }
+                    & .subHead{
+                    }
+                    & .imgBox{
+                        & img{
+    
+                        }
+                    }
+                    & .txt{
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(xxl) {
+    .navFluid{
+        &::after{
+        }
+        & .navContainer{
+            & .navParent{
+                & .logo{
+                    & img{
+                    }
+                }
+                & .navLinks{
+                    & .navUl{
+                        & .navLi{
+                            & .navAnchor{
+                                &.active{
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .heroFluid{
+        & .heroContainer{
+            & .heroRytSection{
+                & img{
+                }
+                & .planeImg{
+                    & img{
+                    }
+                }
+                & .planeImg1{
+                    & img{
+                    }
+                }
+            }
+            & .heroLftSection{
+                & .txtFirst{
+                }
+                & .txtTwo{
+                    font-size: 70px;
+                    margin: 20px 0;
+                }
+                & .txtThree{
+                }
+                & .heroBtn{
+                }
+                & .circle{
+                }
+                & span{
+                }
+            }
+        }
+    }
+    .cardFluid{
+        & .cardContainer{
+            & .cardHeading{
+            }
+            & .cardSubHeading{
+            }
+            & .card1{
+                &.card11{
+                }
+                &:hover{
+                    &.card00{
+                    }
+                    &.card11{
+                    }
+                    &.card22{
+                    }
+                    &.card33{
+                    }
+                }
+                & .cardImg{
+                    & img{
+                    }
+                }
+                & .txt{
+                }
+                & .para{
+                }
+            }
+        }
+    }
+    .sellingFluid{
+        & .sellingContainer{
+            & .cardHeading{
+        }
+        & .cardSubHeading{
+        }
+        & .sellCard{
+            & .selImg{
+                & img{
+                    &:hover{
+                    }
+                }
+            }
+            & .destination{
+            }
+            & .dollor{
+            }
+            & .trip{
+            }
+        }
+        }
+    }
+}
+@include media-breakpoint-down(xl) {
+    .navFluid{
+        &::after{
+        }
+        & .navContainer{
+            & .navParent{
+                & .logo{
+                    & img{
+                    }
+                }
+                & .navLinks{
+                    & .navUl{
+                        & .navLi{
+                            & .navAnchor{
+                                &.active{
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .heroFluid{
+        background-size: contain;
+        min-height: unset;
+        & .heroContainer{
+            & .heroRytSection{
+                & img{
+                }
+                & .planeImg{
+                    & img{
+                    }
+                }
+                & .planeImg1{
+                    & img{
+                    }
+                }
+            }
+            & .heroLftSection{
+                & .txtFirst{
+                }
+                & .txtTwo{
+                    font-size: 55px;
+                    margin: 20px 0;
+                }
+                & .txtThree{
+                }
+                & .heroBtn{
+                }
+                & .circle{
+                }
+                & span{
+                }
+            }
+        }
+    }
+    .cardFluid{
+        & .cardContainer{
+            & .cardHeading{
+            }
+            & .cardSubHeading{
+            }
+            & .card1{
+                &.card11{
+                }
+                &:hover{
+                    &.card00{
+                    }
+                    &.card11{
+                    }
+                    &.card22{
+                    }
+                    &.card33{
+                    }
+                }
+                & .cardImg{
+                    & img{
+                    }
+                }
+                & .txt{
+                }
+                & .para{
+                    padding: 0 50px ;
+                }
+            }
+        }
+    }
+    .sellingFluid{
+        & .sellingContainer{
+            & .cardHeading{
+        }
+        & .cardSubHeading{
+        }
+        & .sellCard{
+            & .selImg{
+                & img{
+                    &:hover{
+                    }
+                }
+            }
+            & .destination{
+            }
+            & .dollor{
+            }
+            & .trip{
+            }
+        }
+        }
+    }
+    .bookFluid{
+        & .bookContainer{
+            & .bookLeft{
+                & .bookHeading{
+                }
+                & .bookSubHeading{
+                    font-size: 35px;
+                }
+                & .box{
+                    & img{
+    
+                    }
+                }
+                & .txt1{
+    
+                }
+                & .txt2{
+    
+                }
+            }
+            & .bookRyt{
+                & .bookCardWrapper{
+                    & .bookCard{
+                        & .bookImg{
+                            & img{
+                            }
+                        }
+                    }
+                    & .head{
+                    }
+                    & .subHead{
+                    }
+                    & .imgBox{
+                        & img{
+    
+                        }
+                    }
+                    & .txt{
+                    }
+                }
+            }
+        }
+    }
+}
+@include media-breakpoint-down(lg) {
+    .navFluid{
+        &::after{
+            // display: none;
+        }
+        & .navContainer{
+            & .navParent{
+                & .logo{
+                    & img{
+                    }
+                }
+                & .navLinks{
+                    & .navUl{
+                        & .navLi{
+                            & .navAnchor{
+                                &.active{
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .heroFluid{
+        background-size: contain;
+        min-height: unset;
+        & .heroContainer{
+            & .heroRytSection{
+                & img{
+                }
+                & .planeImg{
+                    & img{
+                    }
+                }
+                & .planeImg1{
+                    & img{
+                    }
+                }
+            }
+            & .heroLftSection{
+                & .txtFirst{
+                    font-size: 16px;
+                }
+                & .txtTwo{
+                    font-size: 42px;
+                    margin: 10px 0;
+                }
+                & .txtThree{
+                    font-size: 12px;
+                }
+                & .heroBtn{
+                    padding: 12px 15px;
+                }
+                & .circle{
+                    width: 40px;
+                    height: 40px;
+                    margin-left: 5px !important;
+                }
+                & span{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .cardFluid{
+        & .cardContainer{
+            & .cardHeading{
+            }
+            & .cardSubHeading{
+            }
+            & .card1{
+                &.card11{
+                }
+                &:hover{
+                    &.card00{
+                    }
+                    &.card11{
+                    }
+                    &.card22{
+                    }
+                    &.card33{
+                    }
+                }
+                & .cardImg{
+                    & img{
+                    }
+                }
+                & .txt{
+                }
+                & .para{
+                }
+            }
+        }
+    }
+    .sellingFluid{
+        & .sellingContainer{
+            & .cardHeading{
+        }
+        & .cardSubHeading{
+        }
+        & .sellCard{
+            & .selImg{
+                & img{
+                    &:hover{
+                    }
+                }
+            }
+            & .destination{
+            }
+            & .dollor{
+            }
+            & .trip{
+            }
+        }
+        }
+    }
+    .bookFluid{
+        & .bookContainer{
+            & .bookLeft{
+                & .bookHeading{
+                }
+                & .bookSubHeading{
+                }
+                & .box{
+                    & img{
+    
+                    }
+                }
+                & .txt1{
+    
+                }
+                & .txt2{
+    
+                }
+            }
+            & .bookRyt{
+                & .bookCardWrapper{
+                    & .bookCard{
+                        & .bookImg{
+                            & img{
+                            }
+                        }
+                    }
+                    & .head{
+                    }
+                    & .subHead{
+                    }
+                    & .imgBox{
+                        & img{
+    
+                        }
+                    }
+                    & .txt{
+                    }
+                }
+            }
+        }
+    }
+}
+@include media-breakpoint-down(md) {
+    .navFluid{
+        &::after{
+        }
+        & .navContainer{
+            & .navParent{
+                & .logo{
+                    & img{
+                    }
+                }
+                & .navLinks{
+                    & .navUl{
+                        & .navLi{
+                            & .navAnchor{
+                                &.active{
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .heroFluid{
+        & .heroContainer{
+            & .heroRytSection{
+                & img{
+                }
+                & .planeImg{
+                    & img{
+                    }
+                }
+                & .planeImg1{
+                    & img{
+                    }
+                }
+            }
+            & .heroLftSection{
+                & .txtFirst{
+                    font-size: 19px;
+                    text-align: center;
+                }
+                & .txtTwo{
+                    font-size: 42px;
+                    text-align: center;
+                    line-height: 1.3;
+                }
+                & .txtThree{
+                    text-align: center;
+                }
+                & .heroBtn{
+                    width: 100%;
+                    margin-left: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                & .circle{
+                    margin-bottom: 20px;
+                }
+                & span{
+                }
+            }
+        }
+    }
+    .cardFluid{
+        & .cardContainer{
+            & .cardHeading{
+            }
+            & .cardSubHeading{
+                font-size: 42px;
+            }
+            & .card1{
+                &.card11{
+                }
+                &:hover{
+                    &.card00{
+                    }
+                    &.card11{
+                    }
+                    &.card22{
+                    }
+                    &.card33{
+                    }
+                }
+                & .cardImg{
+                    & img{
+                    }
+                }
+                & .txt{
+                }
+                & .para{
+                }
+            }
+        }
+    }
+    .sellingFluid{
+        & .sellingContainer{
+            & .cardHeading{
+                text-align: center;
+        }
+        & .cardSubHeading{
+            font-size: 42px;
+            text-align: center;
+        }
+        & .sellCard{
+            & .selImg{
+                & img{
+                    &:hover{
+                    }
+                }
+            }
+            & .destination{
+            }
+            & .dollor{
+            }
+            & .trip{
+            }
+        }
+        }
+    }
+    .bookFluid{
+        & .bookContainer{
+            & .bookLeft{
+                & .bookHeading{
+                }
+                & .bookSubHeading{
+                }
+                & .box{
+                    & img{
+    
+                    }
+                }
+                & .txt1{
+    
+                }
+                & .txt2{
+    
+                }
+            }
+            & .bookRyt{
+                & .bookCardWrapper{
+                    & .bookCard{
+                        & .bookImg{
+                            & img{
+                            }
+                        }
+                    }
+                    & .head{
+                    }
+                    & .subHead{
+                    }
+                    & .imgBox{
+                        & img{
+    
+                        }
+                    }
+                    & .txt{
+                    }
+                }
+            }
+        }
+    }
+}
+@include media-breakpoint-down(sm) {
+    .navFluid{
+        &::after{
+            // display: none;
+        }
+        & .navContainer{
+            & .navParent{
+                & .logo{
+                    width: 125px;
+                    height: 35px;
+                    & img{
+                    }
+                }
+                & .navLinks{
+                    & .navUl{
+                        & .navLi{
+                            & .navAnchor{
+                                &.active{
+                                    padding: 5px 8px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .heroFluid{
+        & .heroContainer{
+            & .heroRytSection{
+                & img{
+                }
+                & .planeImg{
+                    & img{
+                    }
+                }
+                & .planeImg1{
+                    & img{
+                    }
+                }
+            }
+            & .heroLftSection{
+                & .txtFirst{
+                    text-align: center;
+                    font-size: 18px;
+                    margin-top: 20px !important;
+                }
+                & .txtTwo{
+                    font-size: 30px;
+                    text-align: center;
+                    margin: 8px 0;
+                }
+                & .txtThree{
+                    text-align: center;
+                    font-size: 14px;
+                }
+                & .heroBtn{
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+                & .circle{
+                    margin-bottom: 10px;
+                }
+                & span{
+                }
+            }
+        }
+    }
+    .cardFluid{
+        & .cardContainer{
+            & .cardHeading{
+                font-size: 18px;
+            }
+            & .cardSubHeading{
+                font-size: 30px;
+                line-height: 1;
+            }
+            & .card1{
+                &.card11{
+                    box-shadow: none;
+                }
+                &:hover{
+                    &.card00{
+                        box-shadow: none;
+                    }
+                    &.card11{
+                        box-shadow: none;
+                    }
+                    &.card22{
+                        box-shadow: none;
+                    }
+                    &.card33{
+                        box-shadow: none;
+                    }
+                }
+                & .cardImg{
+                    & img{
+                    }
+                }
+                & .txt{
+                }
+                & .para{
+                    padding: 0 5px;
+                }
+            }
+        }
+    }
+    .sellingFluid{
+        & .sellingContainer{
+            & .cardHeading{
+                font-size: 18px;
+            }
+            & .cardSubHeading{
+                font-size: 30px;
+                line-height: 1;
+            }
+        & .sellCard{
+            & .selImg{
+                & img{
+                    &:hover{
+                    }
+                }
+            }
+            & .destination{
+            }
+            & .dollor{
+            }
+            & .trip{
+            }
+        }
+        }
+    }
+    .bookFluid{
+        & .bookContainer{
+            & .bookLeft{
+                & .bookHeading{
+                    font-size: 18px;
+                    text-align: center;
+                }
+                & .bookSubHeading{
+                    font-size: 30px;
+                    line-height: 1;
+                    text-align: center;
+                }
+                & .box{
+                    & img{
+    
+                    }
+                }
+                & .txt1{
+    
+                }
+                & .txt2{
+    
+                }
+            }
+            & .bookRyt{
+                & .bookCardWrapper{
+                    & .bookCard{
+                        & .bookImg{
+                            & img{
+                            }
+                        }
+                    }
+                    & .head{
+                    }
+                    & .subHead{
+                    }
+                    & .imgBox{
+                        & img{
+    
+                        }
+                    }
+                    & .txt{
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Volkhov';
+    src: url('../fonts/Volkhov-Italic.woff2') format('woff2'),
+        url('../fonts/Volkhov-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Volkhov';
+    src: url('../fonts/Volkhov-Regular.woff2') format('woff2'),
+        url('../fonts/Volkhov-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Volkhov';
+    src: url('../fonts/Volkhov-Bold.woff2') format('woff2'),
+        url('../fonts/Volkhov-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Volkhov';
+    src: url('../fonts/Volkhov-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Volkhov-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
