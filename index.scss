@@ -1975,8 +1975,13 @@ nav{
     .testimonialsFluid{
         & .testimonialsContainer{
             & .testimonialsHead{
+                font-size: 18px;
+                font-weight: 600;
+                text-align: center;
             }
             & .testimonialsSubHead{
+                font-size: 35px;
+                text-align: center;
             }
             & .testimonials{
                 & .tesiMonialsWrapper{
@@ -1999,17 +2004,23 @@ nav{
     .newsletterFluid{
         & .newsletterContainer{
             & .newsletter{
+                padding: 35px;
+                // border-radius: 0;
                 & .txt{
+                    font-size: 30px;
+                    line-height: 1;
                 }
                 & .inp{
+                    height: 50px;
                     &:focus{
                     }
                 }
                 & .sub{
+                    height: 50px;
                 }
                 & .tele{
                     & img{
-    
+                        display: none;
                     }
                 }
             }
