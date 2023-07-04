@@ -2746,8 +2746,13 @@ nav{
             }
             & .testimonials{
                 & .tesiMonialsWrapper{
+                    padding: 30px 30px 20px 30px;
                     & .tesiMonialsCard{
+                        box-shadow: none;
+                        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                        padding-top: 40px;
                         & .txt{
+                            line-height: normal;
                         }
                         & .txt1{
                         }
@@ -2756,6 +2761,12 @@ nav{
                     }
                 }
                 & .imgg{
+                    position: absolute;
+                    left: 50%;
+                    width: 50px;
+                    height: 50px;
+                    transform: translateX(-50%);
+                    top: 5px;box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
                     & img{
                     }
                 }
@@ -2768,17 +2779,17 @@ nav{
                 padding: 25px;
                 border-radius: 12px;
                 & .txt{
-                    font-size: 24px;
+                    font-size: 20px;
                     line-height: 1;
                 }
                 & .inp{
-                    height: 50px;
+                    height: 40px;
                     width: 100%;
                     &:focus{
                     }
                 }
                 & .sub{
-                    height: 50px;
+                    height: 40px;
                 }
                 & .tele{
                     & img{
