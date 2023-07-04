@@ -532,6 +532,65 @@ nav{
     }
 }
 
+.footerFluid{
+    & .footerContainer{
+        & .logo{
+            width: 140px;
+            height: 40px;
+            overflow: hidden;
+            cursor: pointer;
+            display: block;
+            & img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        & .txt{
+            color:#5E6282;
+            font-size: 16px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 124.5%;
+            margin: 20px 0;
+        }
+        & .ulClass{
+            & .list{
+                transition: 0.3s linear;
+                &:hover{
+                    transform: translateX(10px);
+                }
+                & .anchor{
+                    text-decoration: none;
+                    color: #5E6282;
+                    font-size: 14px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 124.5%;
+                &.listHead{
+                    color: #080809;
+                    font-size: 21px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 124.5%;
+                }
+                }
+            }
+        }
+        & .imggg{
+            width: 80px;
+            height: 80px;
+            overflow: hidden;
+            & img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
 @mixin media-breakpoint($name) {
     @if $name ==basic {
     @content;
@@ -792,6 +851,31 @@ nav{
             }
         }
     }
+    .footerFluid{
+        & .footerContainer{
+            & .logo{
+                & img{
+                }
+            }
+            & .txt{
+            }
+            & .ulClass{
+                & .list{
+                    &:hover{
+                    }
+                    & .anchor{
+                    &.listHead{
+                    }
+                    }
+                }
+            }
+            & .imggg{
+                & img{
+                }
+            }
+        }
+    }
+
 }
 
 @include media-breakpoint-up(sm) {
@@ -2689,6 +2773,7 @@ nav{
                 }
                 & .inp{
                     height: 50px;
+                    width: 100%;
                     &:focus{
                     }
                 }
@@ -2704,13 +2789,37 @@ nav{
         }
     }
     .clientFluid{
-        display: none;
         & .clientContainer{
             & .client{         
                 & img{
                 }
                 &:hover{
                 }
+            }
+        }
+    }
+    .footerFluid{
+        & .footerContainer{
+            & .logo{
+                margin: auto;
+                & img{
+                }
+            }
+            & .txt{
+                text-align: center;
+            }
+            & .ulClass{
+                & .list{
+                    text-align: center;
+                    &:hover{
+                    }
+                    & .anchor{
+                    &.listHead{
+                    }
+                    }
+                }
+            }
+            & .imggg{   
             }
         }
     }
