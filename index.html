@@ -7,6 +7,7 @@
     <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/index.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 </head>
 <body class="">
     <!-- nav start -->
@@ -247,6 +248,7 @@
             </div>
         </div>
     </div>
+    <!-- top selling end -->
 
     <!-- book section start -->
     <div class="container-fluid bookFluid">
@@ -353,8 +355,109 @@
         </div>
     </div>
     <!-- book section end -->
-    <!-- top selling end -->
+
+    <!-- testimonials start -->
+    <div class="container-fluid testimonialsFluid">
+        <div class="container testimonialsContainer">
+            <div class="row py-md-5 py-3">
+                <div class="col-md-6 col-12">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12 testimonialsHead">
+                                    Testimonials
+                                </div>
+                                <div class="col-12 testimonialsSubHead pt-4">
+                                    What people say about Us.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-md-0 mt-4 col-12">
+                    <div class="owl-carousel testimonials owl-theme">
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="tesiMonialsWrapper position-relative">
+                                        <div class="row tesiMonialsCard">
+                                            <div class="col-12 txt">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</div>
+                                            <div class="col-12 txt1 mt-5">Mike taylor</div>
+                                            <div class="col-12 txt3">Lahore, Pakistan</div>
+                                        </div>
+                                        <div class="imgg">
+                                            <img src="./img/sel1.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonials end -->
+
+    <!-- clients start -->
+    <div class="container-fluid clientFluid">
+        <div class="container clientContainer">
+            <div class="row cols-5 d-flex align-items-center py-md-4 py-3">
+                <div class="col">
+                    <div class="client">
+                        <img src="./img/one.svg" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="client">
+                        <img src="./img/one1.svg" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="client">
+                        <img src="./img/one2.svg" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="client">
+                        <img src="./img/one3.svg" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="client">
+                        <img src="./img/one4.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- clients end -->
+
+    <!-- newsletter start -->
+    <div class="container-fluid newsletterFluid">
+        <div class="container newsletterContainer">
+            <div class="row pt-md-3 pb-md-5 py-3">
+                <div class="col-12">
+                    <div class="newsletter position-relative">
+                        <div class="row">
+                            <div class="col-12 txt">Subscribe to get information, latest news and other
+                                interesting offers about Jadoo</div>
+                                <div class="col-12 pt-5 d-flex align-items-center justify-content-center">
+                                    <input type="text" class="form-control inp" name="" id="">
+                                    <button class="sub ms-5">Subscribe</button>
+                                </div>
+                        </div>
+                        <div class="tele">
+                            <img src="./img/telegram.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- newsletter end -->
     <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./libs/owl/js/owl.carousel.js"></script>
     <script>
         $(window).scroll(function () {
         var scroll = $(window).scrollTop();
@@ -364,6 +467,42 @@
             $("nav").addClass("active");
         }
     });
+    </script>
+    <script>
+            $('.testimonials').owlCarousel({
+            loop: true,
+            items: 3,
+            margin: 0,
+            nav: false,
+            dots: true,
+            center: false,
+            freeDrag: false,
+            lazyLoad: true,
+            autoplay:true,
+            autoplayTimeout:1500,
+            autoplayHoverPause:true,
+            smartSpeed: 1200,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                576: {
+                    items: 1,
+                },
+                768: {
+                items: 1,
+                },
+                992: {
+                items: 1,
+                },
+                1200: {
+                items: 1,
+                nav: true,
+            },
+            },
+            navText: ["", ""]
+        });
     </script>
 </body>
 </html>
